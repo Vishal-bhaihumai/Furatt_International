@@ -383,16 +383,16 @@ const items: MenuItem[] = [
   
     // Paneer ka Khazana Section
     {
-      id: "orizon-la-jawab",
-      name: "Orizon La-jawab",
+      id: "Furatt-la-jawab",
+      name: "Furatt La-jawab",
       description: "Diced cottage cheese & capsicum with green chilly sauce with two type of indian red and yellow gravy",
       price: "₹220",
       sections: ["paneer"],
       isVeg: true
     },
     {
-      id: "orizon-special",
-      name: "Orizon Special",
+      id: "Furatt-special",
+      name: "Furatt Special",
       description: "Diced cottage cheese & capsicum with green chilly sauce with two type of indian green and yellow gravy",
       price: "₹230",
       sections: ["paneer"],

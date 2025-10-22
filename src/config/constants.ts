@@ -4,10 +4,10 @@
 export const CORE_CONFIG = {
   business: {
     basic: {
-      name: "Guest House",
-      type: "hotel",
+      name: "Furatt International",
+      type: "Hotel",
       foundedYear: 2012,
-      cuisine: ["North Indian", "Punjabi", "Chinese"],
+      cuisine: ["North Indian", "Punjabi", "Chinese","International"],
       specialties: ["Pure Vegetarian", "Jain Options Available"],
       isVegetarian: true,
       hasJainOptions: true,
@@ -150,13 +150,13 @@ export const CORE_CONFIG = {
 
   location: {
     primary: {
-      street: "Opp HDFC Bank",
+      street: "Next to BBC Tower",
       area: "Sayajigunj",
       city: "Vadodara",
       state: "Gujarat",
       country: "India",
-      pincode: "390001",
-      landmark: "Near MS University",
+      pincode: "390007",
+      landmark: "",
       coordinates: {
         latitude: "22.3072° N",
         longitude: "73.1812° E"
@@ -168,13 +168,13 @@ export const CORE_CONFIG = {
 
   social: {
     facebook: {
-      url: "https://www.facebook.com/p/Orizon-Restaurant-100068678364334/",
-      handle: "@orizonrestaurant",
+      url: "https://www.facebook.com",
+      handle: //"@orizonrestaurant",
       enabled: true
     },
     instagram: {
-      url: "https://www.instagram.com/orizon_restaurant/",
-      handle: "@orizonrestaurant",
+      url: "https://www.instagram.com",
+      handle: //"@orizonrestaurant",
       enabled: true
     }
   },
@@ -205,13 +205,13 @@ export const CORE_CONFIG = {
     platforms: {
       google: {
         rating: 4.1,
-        url: "https://www.google.com/maps/place/Orizon+Restaurant/@22.2868452,73.1659995,17z/data=!4m8!3m7!1s0x395fc61a972eb723:0xc9e660d327777e1e!8m2!3d22.2868452!4d73.1685744!9m1!1b1!16s%2Fg%2F124t20jzr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
-        reviewUrl: "https://www.google.com/maps/place/Orizon+Restaurant/@22.2868452,73.1659995,17z/data=!4m8!3m7!1s0x395fc61a972eb723:0xc9e660d327777e1e!8m2!3d22.2868452!4d73.1685744!9m1!1b1!16s%2Fg%2F124t20jzr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D", 
+        url: //"https://www.google.com/maps/place/Orizon+Restaurant/@22.2868452,73.1659995,17z/data=!4m8!3m7!1s0x395fc61a972eb723:0xc9e660d327777e1e!8m2!3d22.2868452!4d73.1685744!9m1!1b1!16s%2Fg%2F124t20jzr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+        reviewUrl: //"https://www.google.com/maps/place/Orizon+Restaurant/@22.2868452,73.1659995,17z/data=!4m8!3m7!1s0x395fc61a972eb723:0xc9e660d327777e1e!8m2!3d22.2868452!4d73.1685744!9m1!1b1!16s%2Fg%2F124t20jzr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D", 
         logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNNDMuNjExLDIwLjA4M0g0MlYyMEgyNHY4aDExLjMwM2MtMS42NDksNC42NTctNi4wOCw4LTExLjMwMyw4Yy02LjYyNywwLTEyLTUuMzczLTEyLTEyYzAtNi42MjcsNS4zNzMtMTIsMTItMTJjMy4wNTksMCw1Ljg0MiwxLjE1NCw3Ljk2MSwzLjAzOWw1LjY1Ny01LjY1N0MzNC4wNDYsNi4wNTMsMjkuMjY4LDQsMjQsNEMxMi45NTUsNCw0LDEyLjk1NSw0LDI0YzAsMTEuMDQ1LDguOTU1LDIwLDIwLDIwYzExLjA0NSwwLDIwLTguOTU1LDIwLTIwQzQ0LDIyLjY1OSw0My44NjIsMjEuMzUsNDMuNjExLDIwLjA4M3oiLz48cGF0aCBmaWxsPSIjRkY3MDQzIiBkPSJNNi4zMDYsMTQuNjkxbDYuNTcxLDQuODE5QzE0LjY1NSwxNS4xMDgsMTguOTYxLDEyLDI0LDEyYzMuMDU5LDAsNS44NDIsMS4xNTQsNy45NjEsMy4wMzlsNS42NTctNS42NTdDMzQuMDQ2LDYuMDUzLDI5LjI2OCw0LDI0LDRDMTYuMzE4LDQsOS42NTYsOC4zMzcsNi4zMDYsMTQuNjkxeiIvPjxwYXRoIGZpbGw9IiM0Q0FGNTAiIGQ9Ik0yNCw0NGM1LjE2NiwwLDkuODYtMS45NzcsMTMuNDA5LTUuMTkybC02LjE5LTUuMjM4QzI5LjIxMSwzNS4wOTEsMjYuNzE1LDM2LDI0LDM2Yy01LjIwMiwwLTkuNjE5LTMuMzE3LTExLjI4My03Ljk0NmwtNi41MjIsNS4wMjVDOS41MDUsMzkuNTU2LDE2LjIyNyw0NCwyNCw0NHoiLz48cGF0aCBmaWxsPSIjMTk3NkQyIiBkPSJNNDMuNjExLDIwLjA4M0g0MlYyMEgyNHY4aDExLjMwM2MtMC43OTIsMi4yMzctMi4yMzEsNC4xNjYtNC4wODcsNS41NzFjMC4wMDEtMC4wMDEsMC4wMDItMC4wMDEsMC4wMDMtMC4wMDJsNi4xOSw1LjIzOEMzNi45NzEsMzkuMjA1LDQ0LDM0LDQ0LDI0QzQ0LDIyLjY1OSw0My44NjIsMjEuMzUsNDMuNjExLDIwLjA4M3oiLz48L3N2Zz4="
       },
       zomato: {
-        url: "https://www.zomato.com/vadodara/orizon-restaurant-akota/reviews",
-        reviewUrl: "https://www.zomato.com/vadodara/orizon-restaurant-akota/reviews",
+        url: //"https://www.zomato.com/vadodara/orizon-restaurant-akota/reviews",
+        reviewUrl: //"https://www.zomato.com/vadodara/orizon-restaurant-akota/reviews",
         logo: "https://b.zmtcdn.com/images/logo/zomato_logo_2017.png"
       }
     },
@@ -302,7 +302,7 @@ export const CORE_CONFIG = {
     platforms: {
       google: {
         enabled: true,
-        reviewUrl: "https://www.google.com/maps/place/Orizon+Restaurant/@22.2868452,73.1659995,17z/data=!4m8!3m7!1s0x395fc61a972eb723:0xc9e660d327777e1e!8m2!3d22.2868452!4d73.1685744!9m1!1b1!16s%2Fg%2F124t20jzr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
+        reviewUrl: //"https://www.google.com/maps/place/Orizon+Restaurant/@22.2868452,73.1659995,17z/data=!4m8!3m7!1s0x395fc61a972eb723:0xc9e660d327777e1e!8m2!3d22.2868452!4d73.1685744!9m1!1b1!16s%2Fg%2F124t20jzr?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
       },
       zomato: {
         enabled: true,
@@ -451,7 +451,7 @@ export const CORE_CONFIG = {
       {
         name: "Zomato",
         enabled: true,
-        link: "https://www.zomato.com/vadodara/orizon-restaurant-akota/order",
+        link: //"https://www.zomato.com/vadodara/orizon-restaurant-akota/order",
         logo: "/images/partners/zomato.png",
         minimumOrder: 200
       },

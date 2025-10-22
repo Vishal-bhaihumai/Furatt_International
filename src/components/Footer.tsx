@@ -103,8 +103,7 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">{CORE_CONFIG.business.basic.name}</h3>
               <p className="text-gray-400">
-              Comfortable stays and delicious {CORE_CONFIG.business.basic.cuisine.join(" & ")} food in{' '}
-{CORE_CONFIG.location.primary.city} since {CORE_CONFIG.business.basic.foundedYear}.
+              Comfortable stays & delicious food in since {CORE_CONFIG.business.basic.foundedYear}.
               
               </p>
               
