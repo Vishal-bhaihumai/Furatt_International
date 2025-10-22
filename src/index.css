@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;  /* Add this line */
+}
+
+@layer base {
+  body {
+    @apply text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  input, select, textarea {
+    @apply border-gray-300 focus:border-amber-500 focus:ring-amber-500;
+  }
+}
